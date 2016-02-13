@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "Vale Guardian: Power DPS Herald"
-breadcrumb_title: Power DPS Herald
+title: "Vale Guardian: DPS Herald"
+breadcrumb_title: DPS Herald
 navigation:
     visible: false
 
 build_weight: "003.herald-power"
 build:
     visible: true
-    name: Power DPS Herald
+    name: DPS Herald
     type: Power
     profession: Herald
 ---
 
-# Vale Guardian: Builds &ndash; Power DPS Herald
+# Vale Guardian: Builds &ndash; DPS Herald
 {% include templates/messages/build-unfinished.html %}
 
 The Herald will always be in melee range of the Vale Guardian and will share various boons while being in the Legendary Dragon Stance.

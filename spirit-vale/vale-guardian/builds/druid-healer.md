@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "Vale Guardian: Druid Healer"
-breadcrumb_title: Druid Healer
+title: "Vale Guardian: Druid Offensive Healer"
+breadcrumb_title: Druid Offensive Healer
 navigation:
     visible: false
 
 build_weight: "002.druid-healer"
 build:
     visible: true
-    name: Druid Healer
+    name: Druid Offensive Healer
     type: Healer
     profession: Druid
 ---
 
-# Vale Guardian: Builds &ndash; Druid Healer
+# Vale Guardian: Builds &ndash; Druid Offensive Healer
 {% include templates/messages/build-unfinished.html %}
 
 The healer's job sounds very easy: keep everyone alive as much as possible.

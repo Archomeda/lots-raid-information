@@ -1,23 +1,21 @@
 ---
 layout: default
-title: "Vale Guardian: Condition DPS Engineer"
-breadcrumb_title: Condition DPS Engineer
+title: "Vale Guardian: Condition Engineer"
+breadcrumb_title: Condition Engineer
 navigation:
     visible: false
 
 build_weight: "004.engineer-condition"
 build:
     visible: true
-    name: Condition DPS Engineer
+    name: Condition Engineer
     type: Conditions
     profession: Engineer
 ---
 {% assign variants = "" | split: "|" %}
 {% assign variant_titles = "" | split: "|" %}
 
-# Vale Guardian: Builds &ndash; Condition DPS Engineer
-{% include templates/messages/build-unfinished.html %}
-
+# Vale Guardian: Builds &ndash; Condition Engineer
 The Engineer is mostly ranged and will go for the **green circles**.
 If the rotation is too complicated, focus on dealing as much burning as possible, and don't forget about vulnerability stacks.
 

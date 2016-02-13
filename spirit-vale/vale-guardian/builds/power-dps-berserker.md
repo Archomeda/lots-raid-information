@@ -1,23 +1,21 @@
 ---
 layout: default
-title: "Vale Guardian: Power DPS Berserker"
-breadcrumb_title: Power DPS Berserker
+title: "Vale Guardian: Phalanx Strength Berserker"
+breadcrumb_title: Phalanx Strength Berserker
 navigation:
     visible: false
 
 build_weight: "003.berserker-power"
 build:
     visible: true
-    name: Power DPS Berserker
+    name: Phalanx Strength Berserker
     type: Power
     profession: Berserker
 ---
 {% assign variants = "" | split: "|" %}
 {% assign variant_titles = "" | split: "|" %}
 
-# Vale Guardian: Builds &ndash; Power DPS Berserker
-{% include templates/messages/build-unfinished.html %}
-
+# Vale Guardian: Builds &ndash; Phalanx Strength Berserker
 The Berserker will always be in melee range of the Vale Guardian and will share might stacks upon critting with the greatsword.
 You build up your adrenaline, go berserk and use your F1 skill in order to increase your DPS even more.
 When a group of players are down and are close together, use the Battle Standard to AoE resurrect them.
