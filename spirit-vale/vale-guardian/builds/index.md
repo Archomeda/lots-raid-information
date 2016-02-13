@@ -27,6 +27,10 @@ Don't forget to check our [general composition](../composition/)!
 If you've thought of a build that's working well, but one that's not listed here, let us know!
 
 ## Change history
+13 February 2016:
+: - Renamed a bunch of builds *(Archomeda)*
+- Added some new, unfinished builds *(Zero)*
+
 25 January 2016 *(Archomeda)*:
 : - Updated Power DPS Berserker and Power DPS Herald
 
