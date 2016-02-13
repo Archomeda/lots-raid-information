@@ -40,7 +40,7 @@ The Herald uses Legendary Dragon Stance and Legendary Demon Stance.
 
 ### Traits
 {% include templates/builds/specialization.html name="Devastation" major1="2" major2="3" major3="1" %}
-{% include templates/builds/specialization.html name="Invocation" major1="1" major2="1" major3="1" %}
+{% include templates/builds/specialization.html name="Invocation" major1="3" major2="1" major3="1" %}
 {% include templates/builds/specialization.html name="Herald" major1="2" major2="2" major3="1" %}
 
 ## Consumables
@@ -50,6 +50,9 @@ The stats that should be included in your food and utilities are:
 - Precision
 
 ## Change history
+13 February 2016 *(Archomeda)*:
+: - Changed Cruel Repercussion to Fierce Infusion in the first major slot in the Invocation trait line
+
 25 January 2016 *(Archomeda)*:
 : - Added Plate of Truffle Steak as food
 - Removed the Superior Rune of Strength as Heralds and Berserkers give enough might (the extra might duration is wasted anyway)
