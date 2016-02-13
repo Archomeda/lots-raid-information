@@ -20,7 +20,7 @@ The healer's job sounds very easy: keep everyone alive as much as possible.
 Keep an eye on the HP of other players and heal accordingly.
 Of course you should still do some damage to the Vale Guardian if possible, but it's not your main priority.
 
-During the split phases, the tank goes to the **Blue Guardian**.
+During the split phases, the healer goes to the **Blue Guardian**.
 
 ## Build
 The healer can use both Zealot's gear or Berserker's gear, or a mix.
