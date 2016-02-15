@@ -5,7 +5,7 @@ breadcrumb_title: Utility Chronomancer
 navigation:
     visible: false
 
-build_weight: "005.chronomancer-utility"
+build_weight: "005.8.1.utility-chronomancer"
 build:
     visible: true
     name: Utility Chronomancer

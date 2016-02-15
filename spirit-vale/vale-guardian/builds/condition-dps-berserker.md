@@ -5,7 +5,7 @@ breadcrumb_title: Condition Berserker
 navigation:
     visible: false
 
-build_weight: "004.berserker-condition"
+build_weight: "004.3.1.condition-berserker"
 build:
     visible: true
     name: Condition Berserker

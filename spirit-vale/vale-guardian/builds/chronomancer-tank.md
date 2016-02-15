@@ -5,7 +5,7 @@ breadcrumb_title: Chronomancer Tank
 navigation:
     visible: false
 
-build_weight: "001.chronomancer-tank"
+build_weight: "001.8.1.chronomancer-tank"
 build:
     visible: true
     name: Chronomancer Tank

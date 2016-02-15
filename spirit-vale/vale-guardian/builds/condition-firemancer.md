@@ -5,7 +5,7 @@ breadcrumb_title: Condition Firemancer
 navigation:
     visible: false
 
-build_weight: "004.tempest-firemancer-condition"
+build_weight: "004.7.1.condition-firemancer"
 build:
     visible: true
     name: Condition Firemancer

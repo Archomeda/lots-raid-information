@@ -5,7 +5,7 @@ breadcrumb_title: DPS Reaper
 navigation:
     visible: false
 
-build_weight: "003.reaper-power"
+build_weight: "003.9.1.dps-reaper"
 build:
     visible: true
     name: DPS Reaper

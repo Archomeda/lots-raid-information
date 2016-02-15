@@ -5,7 +5,7 @@ breadcrumb_title: Druid Offensive Healer
 navigation:
     visible: false
 
-build_weight: "002.druid-healer"
+build_weight: "002.5.1.druid-offensive-healer"
 build:
     visible: true
     name: Druid Offensive Healer

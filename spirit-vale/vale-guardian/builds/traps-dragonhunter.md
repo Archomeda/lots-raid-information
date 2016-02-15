@@ -5,7 +5,7 @@ breadcrumb_title: Traps Dragonhunter
 navigation:
     visible: false
 
-build_weight: "003.dragonhunter-power"
+build_weight: "003.1.1.traps-dragonhunter"
 build:
     visible: true
     name: Traps Dragonhunter

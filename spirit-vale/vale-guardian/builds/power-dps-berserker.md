@@ -5,7 +5,7 @@ breadcrumb_title: Phalanx Strength Berserker
 navigation:
     visible: false
 
-build_weight: "003.berserker-power"
+build_weight: "003.3.1.phalanx-strength-berserker"
 build:
     visible: true
     name: Phalanx Strength Berserker

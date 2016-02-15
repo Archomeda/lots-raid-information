@@ -5,7 +5,7 @@ breadcrumb_title: Condition Reaper
 navigation:
     visible: false
 
-build_weight: "004.reaper-condition"
+build_weight: "004.9.1.condition-reaper"
 build:
     visible: true
     name: Condition Reaper

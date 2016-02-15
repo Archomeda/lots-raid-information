@@ -5,7 +5,7 @@ breadcrumb_title: Condition Engineer
 navigation:
     visible: false
 
-build_weight: "004.engineer-condition"
+build_weight: "004.4.0.condition-engineer"
 build:
     visible: true
     name: Condition Engineer

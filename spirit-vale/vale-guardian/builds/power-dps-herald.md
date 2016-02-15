@@ -5,7 +5,7 @@ breadcrumb_title: DPS Herald
 navigation:
     visible: false
 
-build_weight: "003.herald-power"
+build_weight: "003.2.1.dps-herald"
 build:
     visible: true
     name: DPS Herald
