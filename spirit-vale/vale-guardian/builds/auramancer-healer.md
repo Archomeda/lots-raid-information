@@ -33,7 +33,7 @@ Ideally all the armor pieces have Superior Runes of the Scholar.
 Ideally these weapons have Sigils of Force and Sigils of Air.
 
 ### Utilities
-{% include templates/builds/utility-skills.html healing="&quot;Wash the Pain Away!&quot;" utility1="&quot;Feel the Burn!&quot;" utility2="&quot;Aftershock!&quot;" utility3="&quot;Flash-Freeze!&quot;" elite="&quot;Rebound.&quot;" %}
+{% include templates/builds/utility-skills.html healing="&quot;Wash the Pain Away!&quot;" utility1="&quot;Feel the Burn!&quot;" utility2="&quot;Aftershock!&quot;" utility3="&quot;Flash-Freeze!&quot;" elite="&quot;Rebound!&quot;" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Air" major1="3" major2="2" major3="2" %}

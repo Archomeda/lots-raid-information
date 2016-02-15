@@ -131,13 +131,21 @@ define(["jquery", "app/builds", "app/tooltip", "app/schedule", "qtip", "jquery-d
 
         $(".weapon-skills-definition").each(function() {
             var $this = $(this);
+            var profession = $this.attr("data-profession");
             var mainHand = $this.attr("data-mainhand");
             var offHand = $this.attr("data-offhand");
 
+            var maxSkills = 5;
+            if (profession == "Elementalist") {
+                maxSkills = 20;
+            }
             $this.empty().addClass("skills weapon-skills");
             $("<div>", { "class": "skills-description weapon-skills-description" }).text(mainHand + (offHand ? "/" + offHand : "")).appendTo($this);
-            for (var i = 0; i < 5; i++) {
+            for (var i = 0; i < maxSkills; i++) {
                 $("<span>", { "class": "skill-icon skill-icon-background weapon-skill-icon" }).appendTo($this);
+                if (i > 0 && (i + 1) % 5 == 0) {
+                    $("<span>", { "class": "skills-break" }).appendTo($this);
+                }
             }
         });
 
@@ -161,9 +169,23 @@ define(["jquery", "app/builds", "app/tooltip", "app/schedule", "qtip", "jquery-d
                 var offHand = $this.attr("data-offhand");
                 var extraParam = $this.attr("data-extra");
 
-                var weaponSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, extraParam);
+                var weaponSkills = [];
+                if (profession == "Elementalist") {
+                    // Exception for elementalist skills
+                    var fireSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, "Fire");
+                    var airSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, "Air");
+                    var waterSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, "Water");
+                    var earthSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, "Earth");
+                    weaponSkills = fireSkills.concat(airSkills, waterSkills, earthSkills);
+                } else {
+                    weaponSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, extraParam);
+                }
                 $this.find(".weapon-skill-icon").each(function(index) {
-                    applySkillInfo(this, weaponSkills[index]);
+                    if (weaponSkills[index]) {
+                        applySkillInfo(this, weaponSkills[index]);
+                    } else {
+                        console.log("Missing skill", index + 1, "from the list of weapon skills from the API");
+                    }
                 });
             });
 
@@ -174,7 +196,11 @@ define(["jquery", "app/builds", "app/tooltip", "app/schedule", "qtip", "jquery-d
 
                 var utilitySkills = Builds.skills.getByNames(skills);
                 $this.find(".utility-skill-icon").each(function(index) {
-                    applySkillInfo(this, utilitySkills[skills[index]]);
+                    if (utilitySkills[skills[index]]) {
+                        applySkillInfo(this, utilitySkills[skills[index]]);
+                    } else {
+                        console.log("Missing skill", index + 1, "from the list of utility skills from the API");
+                    }
                 });
             });
         }, function(status, text, data, event) {

@@ -31,7 +31,7 @@ Ideally all the armor pieces have Superior Runes of Balthazar.
 Ideally these weapons have Sigils of Smoldering and Sigils of Geomancy.
 
 ### Utilities
-{% include templates/builds/utility-skills.html healing="Signet of Restoration" utility1="&quot;Feel the Burn!&quot;" utility2="Signet of Fire" utility3="Lightning Flash" elite="&quot;Rebound.&quot;" %}
+{% include templates/builds/utility-skills.html healing="Signet of Restoration" utility1="&quot;Feel the Burn!&quot;" utility2="Signet of Fire" utility3="Lightning Flash" elite="&quot;Rebound!&quot;" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Fire" major1="1" major2="3" major3="1" %}
