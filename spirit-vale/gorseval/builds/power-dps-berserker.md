@@ -2,8 +2,6 @@
 layout: default
 title: "Gorseval: Power DPS Berserker"
 breadcrumb_title: Power DPS Berserker
-navigation:
-    visible: false
 
 build_weight: "003.berserker-power"
 build:

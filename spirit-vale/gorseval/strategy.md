@@ -2,10 +2,6 @@
 layout: default
 title: "Gorseval: Strategy"
 breadcrumb_title: Strategy
-navigation:
-    visible: true
-    title: Strategy
-weight: "002.002.002"
 
 raid_encounter_name: Gorseval the Multifarious
 raid_encounter_page_name: Strategy

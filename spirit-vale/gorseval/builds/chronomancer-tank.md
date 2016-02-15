@@ -2,8 +2,6 @@
 layout: default
 title: "Gorseval: Chronomancer Tank"
 breadcrumb_title: Chronomancer Tank
-navigation:
-    visible: false
 
 build_weight: "001.chronomancer-tank"
 build:

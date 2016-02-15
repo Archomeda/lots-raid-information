@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Phalanx Strength Berserker"
 breadcrumb_title: Phalanx Strength Berserker
-navigation:
-    visible: false
 
 build_weight: "003.3.1.phalanx-strength-berserker"
 build:

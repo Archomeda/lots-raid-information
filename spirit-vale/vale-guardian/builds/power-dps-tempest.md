@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: DPS Tempest"
 breadcrumb_title: DPS Tempest
-navigation:
-    visible: false
 
 build_weight: "003.7.1.dps-tempest"
 build:

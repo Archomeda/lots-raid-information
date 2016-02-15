@@ -28,7 +28,7 @@
       {% endif %}
       {% assign menu_depth = page_url_parts_size %}
 
-      <li><a href="{{ page.url | prepend: site.baseurl }}"{% if current_url == page_url %} class="active"{% endif %}>{{ page.navigation.title }}</a>
+      <li><a href="{{ page.url | prepend: site.baseurl }}"{% if page_url != "" and current_url contains page_url %} class="active"{% endif %}>{{ page.navigation.title }}</a>
     {% endif %}
   {% endfor %}
 

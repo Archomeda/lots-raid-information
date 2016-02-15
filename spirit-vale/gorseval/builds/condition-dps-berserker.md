@@ -2,8 +2,6 @@
 layout: default
 title: "Gorseval: Condition DPS Berserker"
 breadcrumb_title: Condition DPS Berserker
-navigation:
-    visible: false
 
 build_weight: "004.berserker-condition"
 build:

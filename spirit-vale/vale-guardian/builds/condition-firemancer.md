@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Condition Firemancer"
 breadcrumb_title: Condition Firemancer
-navigation:
-    visible: false
 
 build_weight: "004.7.1.condition-firemancer"
 build:

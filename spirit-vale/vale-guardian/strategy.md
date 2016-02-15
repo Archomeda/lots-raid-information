@@ -2,10 +2,6 @@
 layout: default
 title: "Vale Guardian: Strategy"
 breadcrumb_title: Strategy
-navigation:
-    visible: true
-    title: Strategy
-weight: "002.001.002"
 
 raid_encounter_name: Vale Guardian
 raid_encounter_page_name: Strategy

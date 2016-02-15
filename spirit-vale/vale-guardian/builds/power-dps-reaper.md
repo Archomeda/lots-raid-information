@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: DPS Reaper"
 breadcrumb_title: DPS Reaper
-navigation:
-    visible: false
 
 build_weight: "003.9.1.dps-reaper"
 build:

@@ -2,10 +2,6 @@
 layout: default
 title: "Vale Guardian: Builds"
 breadcrumb_title: Builds
-navigation:
-    visible: true
-    title: Builds
-weight: "002.001.004"
 
 raid_encounter_name: Vale Guardian
 raid_encounter_page_name: Builds

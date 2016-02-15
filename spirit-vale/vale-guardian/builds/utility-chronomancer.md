@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Utility/DPS Chronomancer"
 breadcrumb_title: Utility/DPS Chronomancer
-navigation:
-    visible: false
 
 build_weight: "003.8.1.utility-dps-chronomancer"
 build:

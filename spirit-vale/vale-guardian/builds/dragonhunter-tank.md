@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Dragonhunter Tank"
 breadcrumb_title: Dragonhunter Tank
-navigation:
-    visible: false
 
 build_weight: "001.1.1.dragonhunter-tank"
 build:

@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Chronomancer Tank"
 breadcrumb_title: Chronomancer Tank
-navigation:
-    visible: false
 
 build_weight: "001.8.1.chronomancer-tank"
 build:

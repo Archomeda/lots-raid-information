@@ -2,10 +2,6 @@
 layout: default
 title: "Vale Guardian: Composition"
 breadcrumb_title: Composition
-navigation:
-    visible: true
-    title: Composition
-weight: "002.001.003"
 
 raid_encounter_name: Vale Guardian
 raid_encounter_page_name: Composition

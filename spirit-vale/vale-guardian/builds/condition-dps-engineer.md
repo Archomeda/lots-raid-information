@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Condition Engineer"
 breadcrumb_title: Condition Engineer
-navigation:
-    visible: false
 
 build_weight: "004.4.0.condition-engineer"
 build:

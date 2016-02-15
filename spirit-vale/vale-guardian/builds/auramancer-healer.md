@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Auramancer Healer"
 breadcrumb_title: Auramancer Healer
-navigation:
-    visible: false
 
 build_weight: "002.7.1.auramancer-healer"
 build:

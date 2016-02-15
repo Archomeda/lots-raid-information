@@ -2,8 +2,6 @@
 layout: default
 title: "Gorseval: Druid Healer"
 breadcrumb_title: Druid Healer
-navigation:
-    visible: false
 
 build_weight: "002.druid-healer"
 build:

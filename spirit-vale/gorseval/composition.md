@@ -2,10 +2,6 @@
 layout: default
 title: "Gorseval: Composition"
 breadcrumb_title: Composition
-navigation:
-    visible: true
-    title: Composition
-weight: "002.002.003"
 
 raid_encounter_name: Gorseval the Multifarious
 raid_encounter_page_name: Composition

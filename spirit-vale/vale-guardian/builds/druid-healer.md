@@ -2,8 +2,6 @@
 layout: default
 title: "Vale Guardian: Druid Offensive Healer"
 breadcrumb_title: Druid Offensive Healer
-navigation:
-    visible: false
 
 build_weight: "002.5.1.druid-offensive-healer"
 build:

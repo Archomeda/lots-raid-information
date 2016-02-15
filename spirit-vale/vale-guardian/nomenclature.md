@@ -2,10 +2,6 @@
 layout: default
 title: "Vale Guardian: Nomenclature"
 breadcrumb_title: Nomenclature
-navigation:
-    visible: true
-    title: Nomenclature
-weight: "002.001.001"
 
 raid_encounter_name: Vale Guardian
 raid_encounter_page_name: Nomenclature

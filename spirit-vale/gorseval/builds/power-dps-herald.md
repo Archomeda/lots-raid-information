@@ -2,8 +2,6 @@
 layout: default
 title: "Gorseval: Power DPS Herald"
 breadcrumb_title: Power DPS Herald
-navigation:
-    visible: false
 
 build_weight: "003.herald-power"
 build:

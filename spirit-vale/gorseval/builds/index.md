@@ -2,10 +2,6 @@
 layout: default
 title: "Gorseval: Builds"
 breadcrumb_title: Builds
-navigation:
-    visible: true
-    title: Builds
-weight: "002.002.004"
 
 raid_encounter_name: Gorseval the Multifarious
 raid_encounter_page_name: Builds

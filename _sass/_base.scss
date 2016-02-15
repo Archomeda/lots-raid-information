@@ -44,6 +44,9 @@ a {
 a:hover, a.active {
     color: $link-color-hover;
 }
+a.active {
+    font-weight: bold;
+}
 
 header {
     .logo {
