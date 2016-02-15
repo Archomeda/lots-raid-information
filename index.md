@@ -18,8 +18,8 @@ If you have any questions regarding raids, contact him ingame at Archomeda.6472.
 Our raids are generally scheduled in the weekends.
 Our current schedule is as follows:
 
-- Saturday 13 February, 20:00 CET (19:00 GMT)
-- Sunday 14 February, 20:00 CET (19:00 GMT)
+- Saturday 20 February, 20:00 CET (19:00 GMT)
+- Sunday 21 February, 20:00 CET (19:00 GMT)
 
 <ul class="schedule"></ul>
 
