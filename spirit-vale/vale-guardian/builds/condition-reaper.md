@@ -7,7 +7,7 @@ navigation:
 
 build_weight: "004.reaper-condition"
 build:
-    visible: false
+    visible: true
     name: Condition Reaper
     type: Conditions
     profession: Reaper
@@ -27,7 +27,10 @@ If Viper's is not available, use Sinister.
 If Sinister is not available on a trinket, use Rampager's.
 
 ### Weapons
-{% include templates/builds/weapon-skills.html profession="Necromancer" mainhand="Scepter" offhand="Dagger" %}
+{% include templates/messages/info.html message="Note that these weapons have to be equipped as different weapon sets. This means scepter in set 1 as main hand, and dagger in set 2 as off hand. This allows you to weapon swap between the same weapons which is required by the sigils." %}
+
+{% include templates/builds/weapon-skills.html profession="Necromancer" mainhand="Scepter" %}
+{% include templates/builds/weapon-skills.html profession="Necromancer" offhand="Dagger" %}
 Ideally these weapons have Sigils of Agony and Sigils of Geomancy.
 
 ### Utilities
@@ -45,5 +48,5 @@ The stats that should be included in your food and utilities are:
 - Precision
 
 ## Change history
-13 February 2016 *(Zero)*:
+15 February 2016 *(Zero)*:
 : - Initial draft

@@ -140,7 +140,7 @@ define(["jquery", "app/builds", "app/tooltip", "app/schedule", "qtip", "jquery-d
                 maxSkills = 20;
             }
             $this.empty().addClass("skills weapon-skills");
-            $("<div>", { "class": "skills-description weapon-skills-description" }).text(mainHand + (offHand ? "/" + offHand : "")).appendTo($this);
+            $("<div>", { "class": "skills-description weapon-skills-description" }).html((mainHand ? mainHand : "&ndash;") + (offHand ? "/" + offHand : "")).appendTo($this);
             for (var i = 0; i < maxSkills; i++) {
                 $("<span>", { "class": "skill-icon skill-icon-background weapon-skill-icon" }).appendTo($this);
                 if (i > 0 && (i + 1) % 5 == 0) {

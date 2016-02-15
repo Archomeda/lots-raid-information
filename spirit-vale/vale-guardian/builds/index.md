@@ -27,6 +27,9 @@ Don't forget to check our [general composition](../composition/)!
 If you've thought of a build that's working well, but one that's not listed here, let us know!
 
 ## Change history
+15 February 2016 *(Zero)*:
+: - Added condition Reaper
+
 13 February 2016:
 : - Renamed a bunch of builds *(Archomeda)*
 - Added some new, unfinished builds *(Zero)*
