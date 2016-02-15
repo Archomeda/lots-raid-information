@@ -33,7 +33,8 @@ define(["jquery", "qtip"], function($) {
                 switch (fact.type) {
                     case "Recharge":
                         // Add this directly to the tooltip instead
-                        tooltip.append($("<div>", { "class": "tooltip-recharge" }).text(fact.value));
+                        factElement.append($("<span>", { "class": "tooltip-fact-description" }).text(fact.value));
+                        tooltip.append(factElement);
                         isFact = false;
                         break;
                     case "AttributeAdjust":

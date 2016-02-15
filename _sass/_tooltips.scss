@@ -33,12 +33,14 @@
             position: absolute;
             top: 3px;
             right: 3px;
-            background-image: url($assets-path + "images/recharge.png");
-            background-repeat: no-repeat;
-            background-position: right;
-            background-size: 16px;
-            padding-right: 18px;
             color: white;
+
+            img.tooltip-fact-icon {
+                float: right;
+                width: 16px;
+                height: 16px;
+                padding-left: 2px;
+            }
         }
 
         .tooltip-facts {
