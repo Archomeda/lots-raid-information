@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "Vale Guardian: Utility Chronomancer"
-breadcrumb_title: Utility Chronomancer
+title: "Vale Guardian: Utility/DPS Chronomancer"
+breadcrumb_title: Utility/DPS Chronomancer
 navigation:
     visible: false
 
-build_weight: "005.8.1.utility-chronomancer"
+build_weight: "003.8.1.utility-dps-chronomancer"
 build:
     visible: true
-    name: Utility Chronomancer
-    type: Other
+    name: Utility/DPS Chronomancer
+    type: Power
     profession: Chronomancer
 ---
 
-# Vale Guardian: Builds &ndash; Utility Chronomancer
+# Vale Guardian: Builds &ndash; Utility/DPS Chronomancer
 {% include templates/messages/build-unfinished.html %}
 
 The Chonomancer's job is to provide as much alacrity and quickness as possible.
