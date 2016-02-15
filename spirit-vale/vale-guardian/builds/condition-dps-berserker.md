@@ -30,7 +30,7 @@ If Sinister is not available on a trinket, use Rampager's.
 Ideally all the armor pieces have Superior Runes of the Scholar.
 
 ### Weapons
-{% include templates/builds/weapon-skills.html profession="Warrior" mainhand="Sword" offhaned="torch" %}
+{% include templates/builds/weapon-skills.html profession="Warrior" mainhand="Sword" offhand="Torch" %}
 {% include templates/builds/weapon-skills.html profession="Warrior" mainhand="Longbow" %}
 Ideally these weapons have Sigils of Agony and Sigils of Smoldering.
 
