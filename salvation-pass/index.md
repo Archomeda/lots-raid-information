@@ -12,7 +12,7 @@ raid:
 
 # Salvation Pass
 Salvation Pass is the second wing of the Forsaken Thicket.
-It was announced in the Q1 2016 quarterly update blog post on 12 January 2016.
-It is yet to be released.
+It was released on 8 March 2016.
 
+{% include templates/messages/optimal-gear.html %}
 {% include templates/wings/list-encounters.html %}
