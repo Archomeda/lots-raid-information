@@ -64,8 +64,12 @@ Still have to figure out how this can be done nicer.
         <a href="{{ site.baseurl }}/spirit-vale/vale-guardian/builds/condition-dps-engineer/">Condition DPS Engineer</a>
         &times;1-3*
     </li>
+    <li>
+        <a href="{{ site.baseurl }}/spirit-vale/vale-guardian/builds/">Any other condition player</a>
+        &times;0-2*
+    </li>
 </ul>
-* The number of Condition DPS Berserkers and Engineers are mutually exclusive.
+* The number of Condition players are mutually exclusive.
 {% include templates/composition/list-builds-end.html %}
 
 This can and probably will be tweaked during the raid.
@@ -82,6 +86,9 @@ Generally, we want to have:
 - The Chronomancer should *not* be in the same party as most of the ranged players
 
 ## Change history
+17 March 2016 *(Archomeda)*:
+: - Added other condition builds
+
 23 January 2016 *(Archomeda)*:
 : - Moved away from Dulfy's setup to what we've been running for a couple of weeks
 
