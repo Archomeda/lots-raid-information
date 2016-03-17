@@ -1,0 +1,78 @@
+@keyframes phase-pulse {
+    0% { background: transparent; }
+    50% { background: rgba(255, 255, 255, 0.7); }
+    100% { background: transparent; }
+}
+
+@mixin phase-color($color) {
+    background: $color;
+}
+@mixin phase-color-striped($color) {
+    background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 8px,
+        rgba(0, 0, 0, 0.3) 8px,
+        rgba(0, 0, 0, 0.3) 16px
+    ), $color;
+}
+
+.strategy-progress-bar {
+    width: 100%;
+    margin-top: 10px;
+
+    .tab {
+        input[type="radio"]:checked ~ label {
+            border-bottom: none;
+            span {
+                animation: phase-pulse 5s;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        label {
+            height: 60px;
+            margin: 0;
+            padding: 0;
+            border-bottom: none;
+            span {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .phase-green {
+        @include phase-color(#27d115);
+    }
+    .phase-green-striped {
+        @include phase-color-striped(#27d115);
+    }
+    .phase-yellow {
+        @include phase-color(#e3e31c);
+    }
+    .phase-yellow-striped {
+        @include phase-color-striped(#e3e31c);
+    }
+    .phase-orange {
+        @include phase-color(#f78f08);
+    }
+    .phase-orange-striped {
+        @include phase-color-striped(#f78f08);
+    }
+    .phase-blue {
+        @include phase-color(#1ccce3);
+    }
+    .phase-blue-striped {
+        @include phase-color-striped(#1ccce3);
+    }
+    .phase-purple {
+        @include phase-color(#b56ce0);
+    }
+    .phase-purple-striped {
+        @include phase-color-striped(#b56ce0);
+    }
+}

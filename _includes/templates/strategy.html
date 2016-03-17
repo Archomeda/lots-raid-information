@@ -1,0 +1,14 @@
+<div class="strategy-progress-bar tabs">
+  {% for title in include.phases_title %}{% comment %}
+    {% endcomment %}{% assign details = include.phases_details[forloop.index0] %}{% comment %}
+    {% endcomment %}{% assign width = include.phases_width[forloop.index0] %}{% comment %}
+    {% endcomment %}{% assign class = include.phases_class[forloop.index0] %}{% comment %}
+    {% endcomment %}<div class="tab phase">{% comment %}
+      {% endcomment %}<input type="radio" id="strategy-progress-bar-phase-{{ forloop.index }}" name="strategy-progress-bar-phase-group" {% if forloop.first %}checked="checked"{% endif %}>{% comment %}
+      {% endcomment %}<label for="strategy-progress-bar-phase-{{ forloop.index }}" class="{{ class }}" style="width: {{ width }}"><span>{{ title }}</span></label>{% comment %}
+      {% endcomment %}<div class="tab-content phase-content">
+        {{ details | markdownify }}
+      </div>{% comment %}
+    {% endcomment %}</div>{% comment %}
+  {% endcomment %}{% endfor %}
+</div>
