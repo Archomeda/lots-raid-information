@@ -18,8 +18,9 @@ If you have any questions regarding raids, contact him ingame at Archomeda.6472.
 Our raids are generally scheduled in the weekends.
 Our current schedule is as follows:
 
-- Saturday 12 March, 20:00 CET (19:00 GMT)
-- Sunday 13 March, 20:00 CET (19:00 GMT)
+- Friday 18 March, after Guild Missions &ndash; Slothasor training
+- Saturday 19 March, 20:00 CET (19:00 GMT) &ndash; Salvation Pass
+- Sunday 20 March, 20:00 CET (19:00 GMT) &ndash; Salvation Pass
 
 <ul class="schedule"></ul>
 
